@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Sun (dimmed) -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M24,12 A12,12 0 1,1 24,36 A12,12 0 1,1 24,12 Z" />
+    
+    <!-- Cloud 1 -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M8,20 Q8,12 16,12 Q24,4 32,4 Q40,4 40,12 Q48,12 48,20 Q48,28 40,28 L8,28 Q8,20 8,20 Z" />
+    
+    <!-- Cloud 2 -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M12,24 Q12,18 18,18 Q24,12 30,12 Q36,12 36,18 Q42,18 42,24 Q42,30 36,30 L12,30 Q12,24 12,24 Z" />
+</vector>

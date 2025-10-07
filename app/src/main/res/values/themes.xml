@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeatherApp" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/material_orange_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Action Bar colors -->
+        <item name="colorPrimaryVariant">@color/background_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorPrimary">@color/background_primary</item>
+        <item name="android:colorPrimaryDark">@color/background_primary</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_primary</item>
+        <item name="colorSurface">@color/background_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Custom attributes -->
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <!-- Material Design attributes -->
+        <item name="materialButtonStyle">@style/Widget.WeatherApp.Button</item>
+        <item name="textInputStyle">@style/Widget.WeatherApp.TextInputLayout</item>
+        <item name="cardViewStyle">@style/Widget.WeatherApp.CardView</item>
+        
+        <!-- Action Bar styling -->
+        <item name="actionBarStyle">@style/Widget.WeatherApp.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.WeatherApp.ActionBar</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="Widget.WeatherApp.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Outlined Button styles -->
+    <style name="Widget.WeatherApp.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Text Button styles -->
+    <style name="Widget.WeatherApp.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Text Input styles -->
+    <style name="Widget.WeatherApp.TextInput" parent="Widget.WeatherApp.TextInputLayout">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+    
+    <!-- Text Input styles -->
+    <style name="Widget.WeatherApp.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+    
+    <!-- Card View styles -->
+    <style name="Widget.WeatherApp.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Weather Card styles -->
+    <style name="Widget.WeatherApp.WeatherCard" parent="Widget.WeatherApp.CardView">
+        <item name="cardElevation">8dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="contentPadding">20dp</item>
+    </style>
+    
+    <!-- Loading styles -->
+    <style name="Widget.WeatherApp.Loading" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/primary</item>
+        <item name="trackColor">@color/primary_light</item>
+    </style>
+    
+    <!-- Error styles -->
+    <style name="Widget.WeatherApp.Error" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/error</item>
+        <item name="strokeColor">@color/error</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Success styles -->
+    <style name="Widget.WeatherApp.Success" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/success</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Action Bar styles -->
+    <style name="Widget.WeatherApp.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/background_primary</item>
+        <item name="elevation">4dp</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+    </style>
+    
+    <!-- Action Bar theme overlay -->
+    <style name="ThemeOverlay.WeatherApp.ActionBar" parent="ThemeOverlay.Material3.Dark.ActionBar">
+        <item name="colorPrimary">@color/background_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorPrimary">@color/background_primary</item>
+        <item name="android:colorPrimaryDark">@color/background_primary</item>
+    </style>
+    
+         <!-- Theme without action bar for fragments -->
+     <style name="Theme.WeatherApp.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+         <!-- Primary brand color. -->
+         <item name="colorPrimary">@color/primary</item>
+         <item name="colorPrimaryVariant">@color/primary_dark</item>
+         <item name="colorOnPrimary">@color/white</item>
+         
+         <!-- Secondary brand color. -->
+         <item name="colorSecondary">@color/accent</item>
+         <item name="colorSecondaryVariant">@color/material_orange_dark</item>
+         <item name="colorOnSecondary">@color/white</item>
+         
+         <!-- Status bar color. -->
+         <item name="android:statusBarColor">@color/primary_dark</item>
+         
+         <!-- Background colors -->
+         <item name="android:colorBackground">@color/background_primary</item>
+         <item name="colorSurface">@color/background_card</item>
+         <item name="colorOnSurface">@color/text_primary</item>
+         
+         <!-- Text colors -->
+         <item name="android:textColorPrimary">@color/text_primary</item>
+         <item name="android:textColorSecondary">@color/text_secondary</item>
+         <item name="android:textColorHint">@color/text_hint</item>
+         
+         <!-- Custom attributes -->
+         <item name="android:windowBackground">@color/background_primary</item>
+         <item name="android:windowLightStatusBar">false</item>
+         <item name="android:windowLightNavigationBar">false</item>
+     </style>
+    
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weatherFragment">
+
+    <!-- Weather Fragment - Main screen -->
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.simbasmart.weatherapp.ui.weather.WeatherFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather">
+        
+        <action
+            android:id="@+id/action_weatherFragment_to_weatherDetailActivity"
+            app:destination="@id/weatherDetailActivity" />
+            
+        <action
+            android:id="@+id/action_weatherFragment_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+    </fragment>
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.simbasmart.weatherapp.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        
+        <action
+            android:id="@+id/action_loginFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Settings Activity -->
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.simbasmart.weatherapp.ui.settings.SettingsActivity"
+        android:label="Settings"
+        tools:layout="@layout/activity_settings" />
+
+    <!-- Weather Detail Activity -->
+    <activity
+        android:id="@+id/weatherDetailActivity"
+        android:name="com.simbasmart.weatherapp.ui.weather.WeatherDetailActivity"
+        android:label="Weather Details"
+        tools:layout="@layout/activity_weather_detail" />
+
+</navigation>

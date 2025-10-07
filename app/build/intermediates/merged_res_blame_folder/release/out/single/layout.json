@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/activity_search.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/activity_login.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/item_daily_forecast.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/item_daily_forecast.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/activity_settings.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/fragment_weather.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/widget_weather.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/widget_weather.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/spinner_dropdown_item.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/item_hourly_forecast.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/item_hourly_forecast.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/activity_main.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeReleaseResources-59:/layout/spinner_item.xml",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/spinner_item.xml"
+    }
+]

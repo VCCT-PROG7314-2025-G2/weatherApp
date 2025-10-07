@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Information -->
+    <string name="app_name">WeatherApp</string>
+    <string name="app_description">A comprehensive weather application with real-time updates</string>
+    
+    <!-- Navigation -->
+    <string name="nav_weather">Weather</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_login">Login</string>
+    
+    <!-- Authentication -->
+    <string name="login_title">Welcome to WeatherApp</string>
+    <string name="login_subtitle">Sign in to get personalized weather updates</string>
+    <string name="login_email_hint">Email address</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_google_button">Sign in with Google</string>
+    <string name="login_register_prompt">Don\'t have an account?</string>
+    <string name="login_register_link">Register here</string>
+
+    
+    <!-- Registration -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join WeatherApp for personalized weather</string>
+    <string name="register_name_hint">Full name</string>
+    <string name="register_email_hint">Email address</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_confirm_password_hint">Confirm password</string>
+    <string name="register_button">Create Account</string>
+    <string name="register_login_prompt">Already have an account?</string>
+    <string name="register_login_link">Sign in here</string>
+    
+    <!-- Weather -->
+    <string name="weather_current">Current Weather</string>
+    <string name="weather_forecast">Forecast</string>
+    <string name="weather_hourly">Hourly</string>
+    <string name="weather_daily">Daily</string>
+    <string name="weather_location">Location</string>
+    <string name="weather_temperature">Temperature</string>
+    <string name="weather_humidity">Humidity</string>
+    <string name="weather_wind_speed">Wind Speed</string>
+    <string name="weather_pressure">Pressure</string>
+    <string name="weather_visibility">Visibility</string>
+    <string name="weather_feels_like">Feels Like</string>
+    <string name="weather_uv_index">UV Index</string>
+    <string name="weather_sunrise">Sunrise</string>
+    <string name="weather_sunset">Sunset</string>
+    
+    <!-- Weather Conditions -->
+    <string name="weather_clear">Clear</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_rainy">Rainy</string>
+    <string name="weather_snowy">Snowy</string>
+    <string name="weather_stormy">Stormy</string>
+    <string name="weather_foggy">Foggy</string>
+    <string name="weather_windy">Windy</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="logout_button">Logout</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_location">Location</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_about">About</string>
+    <string name="settings_profile">Profile</string>
+    
+    <!-- Units -->
+    <string name="units_celsius">Celsius</string>
+    <string name="units_fahrenheit">Fahrenheit</string>
+    <string name="units_kelvin">Kelvin</string>
+    <string name="units_mph">mph</string>
+    <string name="units_kmh">km/h</string>
+    <string name="units_mbar">mbar</string>
+    <string name="units_inhg">inHg</string>
+    
+    <!-- Languages -->
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+    <string name="language_xhosa">isiXhosa</string>
+    
+    <!-- Notifications -->
+    <string name="notification_weather_alert">Weather Alert</string>
+    <string name="notification_rain_forecast">Rain expected in the next hour</string>
+    <string name="notification_storm_warning">Storm warning for your area</string>
+    <string name="notification_temperature_alert">Temperature alert</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_location">Unable to get location. Please enable location services.</string>
+    <string name="error_weather_data">Unable to load weather data. Please try again.</string>
+    <string name="error_authentication">Authentication failed. Please try again.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_invalid_password">Password must be at least 6 characters.</string>
+    <string name="error_passwords_dont_match">Passwords do not match.</string>
+    
+    <!-- Success Messages -->
+    <string name="success_login">Successfully signed in!</string>
+    <string name="success_register">Account created successfully!</string>
+    <string name="success_settings_saved">Settings saved successfully!</string>
+    <string name="success_location_updated">Location updated successfully!</string>
+    
+    <!-- Loading -->
+    <string name="loading_weather">Loading weather data...</string>
+    <string name="loading_location">Getting your location...</string>
+    <string name="loading_authenticating">Authenticating...</string>
+    
+    <!-- Permissions -->
+    <string name="permission_location_title">Location Permission</string>
+    <string name="permission_location_message">WeatherApp needs location access to provide accurate weather information for your area.</string>
+    <string name="permission_notification_title">Notification Permission</string>
+    <string name="permission_notification_message">Allow notifications to receive weather alerts and updates.</string>
+    
+    <!-- About -->
+    <string name="about_version">Version 1.0</string>
+    <string name="about_developer">Developed by SimbaSmart</string>
+    <string name="about_description">A comprehensive weather application built with Kotlin for Android.</string>
+    
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947129554875",
+    "project_id": "weatherapp-84990",
+    "storage_bucket": "weatherapp-84990.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947129554875:android:33830f86584d3d42fad69e",
+        "android_client_info": {
+          "package_name": "com.simbasmart.WeaterApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-NTAM1Gi-nRZZUrpqc7jz1lUM9MRTGY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

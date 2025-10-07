@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Language options -->
+    <string-array name="languages">
+        <item>English</item>
+        <item>Afrikaans</item>
+        <item>isiZulu</item>
+    </string-array>
+
+    <!-- Temperature unit options -->
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <!-- Wind speed unit options -->
+    <string-array name="wind_speed_units">
+        <item>km/h</item>
+        <item>m/s</item>
+        <item>mph</item>
+    </string-array>
+
+    <!-- Theme options -->
+    <string-array name="themes">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <!-- Notification frequency options -->
+    <string-array name="notification_frequency">
+        <item>Never</item>
+        <item>Daily</item>
+        <item>Weather Alerts Only</item>
+        <item>Every 3 hours</item>
+    </string-array>
+
+    <!-- Update frequency options -->
+    <string-array name="update_frequency">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>Manual only</item>
+    </string-array>
+</resources>

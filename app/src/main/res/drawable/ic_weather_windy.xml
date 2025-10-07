@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Cloud -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M8,20 Q8,12 16,12 Q24,4 32,4 Q40,4 40,12 Q48,12 48,20 Q48,28 40,28 L8,28 Q8,20 8,20 Z" />
+    
+    <!-- Wind Lines -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M4,16 L12,16 L10,18 L14,18 L12,20 L4,20 Z" />
+    
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M4,24 L16,24 L14,26 L18,26 L16,28 L4,28 Z" />
+    
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M4,32 L14,32 L12,34 L16,34 L14,36 L4,36 Z" />
+    
+    <!-- Wind Direction -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M36,20 L40,24 L36,28 L38,24 Z" />
+    
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M32,24 L36,28 L32,32 L34,28 Z" />
+</vector>
