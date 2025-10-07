@@ -47,7 +47,7 @@ WeatherApp is a comprehensive Android weather application built with Kotlin, des
 ```
 app/
 ├── src/main/
-│   ├── java/com/simbasmart/weatherapp/
+│   ├── java/com/weatherapp/
 │   │   ├── data/           # Data layer (API, database, models)
 │   │   ├── ui/             # User interface components
 │   │   │   ├── auth/       # Authentication screens
@@ -134,17 +134,6 @@ app/
 2. Configure environment variables
 3. Set up SQLite database with Room persistence
 
-## Video Demonstration
-
-**WeatherApp Demo Video**: [YouTube Link](https://youtu.be/your-video-id)
-
-The video demonstrates:
-- User authentication with Google SSO
-- Settings management and customization
-- REST API integration and database connectivity
-- Weather data display and navigation
-- Offline functionality and synchronization
-
 ## Screenshots
 
 ### Main Screens
@@ -186,21 +175,10 @@ This project utilized AI tools for:
 
 All AI-generated code has been reviewed, tested, and customized for the specific requirements.
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
-
-## License
-
-This project is developed for educational purposes as part of the Android Development course.
 
 ## Contact
 
-**Developer**: SimbaSmart  
+**Developer**: st10072849  
 **Email**: helder.s.cruz1@outlook.pt  
 **GitHub**: https://github.com/yourusername
 
