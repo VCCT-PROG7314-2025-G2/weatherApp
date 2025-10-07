@@ -77,7 +77,8 @@ app/
 ### Build Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weatherapp.git
+   git clone https://github.com/VCCT-PROG7314-2025-G2/weatherApp.git 
+
    cd weatherapp
    ```
 
@@ -180,5 +181,5 @@ All AI-generated code has been reviewed, tested, and customized for the specific
 
 **Developer**: st10072849  
 **Email**: helder.s.cruz1@outlook.pt  
-**GitHub**: https://github.com/yourusername
+**GitHub**: https://github.com/VCCT-PROG7314-2025-G2/weatherApp.git 
 
