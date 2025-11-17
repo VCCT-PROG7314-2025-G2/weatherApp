@@ -190,25 +190,8 @@ For the prototype hand-in, markers can:
 - Run the app quickly using the steps in `RUN_APP.md`
 - Verify mandatory features: Google SSO login, settings changes, REST API-backed weather display
 - See CI building the APK in `.github/workflows/android-build.yml` (badge at top). The build artifact is uploaded for download
-- Review `PROTOTYPE_SUBMISSION.md` for a concise checklist and `AI_TOOLS_WRITEUP.md` for the ≤500-word AI usage note
-
-## AI Tools Usage
-
-This project utilized AI tools for:
-- **Code Generation**: Initial project structure and boilerplate code
-- **Debugging**: Error resolution and optimization suggestions
-- **Documentation**: README and code comments generation
-- **UI Design**: Layout suggestions and Material Design implementation
-
-All AI-generated code has been reviewed, tested, and customized for the specific requirements.
-
-## Project Structure
-
-See [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) for detailed information about the repository organization and architecture.
 
 ## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on contributing to this project.
 
 1. Fork the repository
 2. Create a feature branch
