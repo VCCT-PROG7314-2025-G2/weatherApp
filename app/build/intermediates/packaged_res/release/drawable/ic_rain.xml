@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Cloud -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M8,20 Q8,12 16,12 Q24,4 32,4 Q40,4 40,12 Q48,12 48,20 Q48,28 40,28 L8,28 Q8,20 8,20 Z" />
+    
+    <!-- Raindrops -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M16,32 L18,38 L14,38 Z" />
+    
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M24,30 L26,36 L22,36 Z" />
+    
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M32,32 L34,38 L30,38 Z" />
+    
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M20,34 L21,38 L19,38 Z" />
+    
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M28,34 L29,38 L27,38 Z" />
+</vector>

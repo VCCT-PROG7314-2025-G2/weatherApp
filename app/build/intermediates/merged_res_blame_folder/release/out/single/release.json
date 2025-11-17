@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_apple.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_apple.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_language.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_language.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_alert_moderate.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_alert_moderate.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_back.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_thermometer.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_thermometer.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_calendar.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_item_daily_forecast.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/item_daily_forecast.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/xml_weather_widget_info.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/xml/weather_widget_info.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_weather_gradient_background.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/weather_gradient_background.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_windy.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_windy.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_palette.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_palette.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_cloudy_night.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_cloudy_night.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_snow.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_snow.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/xml_data_extraction_rules.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_account.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_account.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/xml_backup_rules.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_thunder_3d.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_thunder_3d.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_alert_severe.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_alert_severe.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ripple_background.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ripple_background.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_notifications.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_activity_login.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_spinner_item.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_activity_main.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_info.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_fog.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_fog.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_sunny_3d.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_sunny_3d.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_settings.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_widget_weather.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/widget_weather.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_storm.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_storm.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_activity_search.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_humidity.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_humidity.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/menu_main_menu.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_alert_minor.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_alert_minor.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_pressure.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_pressure.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_wind.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_wind.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_rain_day.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_rain_day.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_visibility.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_visibility.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_fragment_weather.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_rain_night.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_rain_night.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_search.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_google.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_rain.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_rain.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_alert.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_alert.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_widget_preview.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/widget_preview.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_spinner_dropdown_item.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_logout.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_weather_details_background.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/weather_details_background.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_more_vert.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_facebook.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_facebook.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/navigation_nav_graph.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_clear_day.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_clear_day.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_cloudy_day.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_cloudy_day.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_circle_background_white_20.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/circle_background_white_20.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_activity_settings.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_clear_night.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_clear_night.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_alert_extreme.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_alert_extreme.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_refresh.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_spinner_background.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/layout_item_hourly_forecast.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/layout/item_hourly_forecast.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_rain.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_rain.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_location.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_snow_3d.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_snow_3d.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_widget_background.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/widget_background.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-merged_res-60:/drawable_ic_weather_rain_3d.xml.flat",
+        "source": "com.simbasmart.weatherapp-main-61:/drawable/ic_weather_rain_3d.xml"
+    }
+]

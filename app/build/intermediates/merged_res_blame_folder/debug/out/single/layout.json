@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\item_hourly_forecast.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\item_hourly_forecast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "com.simbasmart.weatherapp-mergeDebugResources-59:/layout/activity_search.xml",
+        "source": "com.simbasmart.weatherapp-main-62:/layout/activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\spinner_item.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\activity_search.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\fragment_weather.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\fragment_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\widget_weather.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\widget_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\item_daily_forecast.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\item_daily_forecast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-mergeDebugResources-59:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.9\\com.simbasmart.weatherapp-main-62:\\layout\\activity_main.xml"
+    }
+]
