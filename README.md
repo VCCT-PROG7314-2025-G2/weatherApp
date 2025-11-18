@@ -379,7 +379,7 @@ The demonstration showcases:
 ![Weather Dashboard](screenshots/dashboard.jpg)
 
 #### 3. Daily Forecast View
-**Location**: `screenshots/5day forecast.jpg`
+**Location**: `screenshots/5day forecast.jpg` (Note: Spaces in filename are URL-encoded as `%20` in the image link)
 - **Description**: 5-day weather forecast with detailed information
 - **Features to Showcase**:
   - Extended forecast display
@@ -387,7 +387,7 @@ The demonstration showcases:
   - Weather conditions for each day
   - Date and day information
 
-![5-Day Forecast](screenshots/5day forecast.jpg)
+![5-Day Forecast](screenshots/5day%20forecast.jpg)
 
 #### 4. Settings Screen
 **Location**: `screenshots/settings.jpg`
@@ -402,7 +402,7 @@ The demonstration showcases:
 ![Settings Screen](screenshots/settings.jpg)
 
 #### 5. Search/Location Selection
-**Location**: `screenshots/search location.jpg`
+**Location**: `screenshots/search location.jpg` (Note: Spaces in filename are URL-encoded as `%20` in the image link)
 - **Description**: Location search with auto-complete functionality
 - **Features to Showcase**:
   - Search input field
@@ -410,7 +410,7 @@ The demonstration showcases:
   - Popular cities list
   - Recent searches
 
-![Location Search](screenshots/search location.jpg)
+![Location Search](screenshots/search%20location.jpg)
 
 ### Features Showcased in Screenshots
 
