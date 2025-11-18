@@ -278,6 +278,29 @@ We welcome contributions! Please follow these steps:
 - Modern UI implementation with Material Design 3
 - Testing and quality assurance
 
+### Phase 3: POE Features (Latest Updates)
+- **Offline Mode Implementation**: 
+  - Room database integration for local data persistence
+  - Weather data caching with WeatherEntity, LocationEntity, and UserEntity
+  - Offline data retrieval and synchronization capabilities
+  - Automatic data sync when network connectivity is restored
+  - Support for viewing cached weather data without internet connection
+
+- **Multi-Language Support**:
+  - Implementation of localization for multiple South African languages
+  - Support for English, Afrikaans, and isiZulu
+  - Language selection in Settings with persistent user preferences
+  - Locale-based date and time formatting throughout the app
+  - User language preferences stored in database and SharedPreferences
+
+- **Notifications System**:
+  - WeatherNotificationService for weather alerts and daily updates
+  - WeatherFirebaseMessagingService for push notifications
+  - Notification channels for Android 8.0+ (Weather Alerts and Daily Weather)
+  - Support for severe weather warnings, daily weather updates, and custom alerts
+  - Configurable notification frequency settings (Never, Daily, Weather Alerts Only, Every 3 hours)
+  - User-controlled notification preferences in Settings
+
 ## 📄 License
 
 This project is open source and available for use and modification.
