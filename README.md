@@ -25,26 +25,33 @@ A modern, feature-rich Android weather application built with Kotlin, providing 
 ## 🛠️ Technical Stack
 
 ### Frontend
-- **Language**: Kotlin
+- **Language**: Kotlin 1.8.20
 - **UI Framework**: Android Views with Material Design 3
 - **Architecture**: MVVM (Model-View-ViewModel)
-- **Navigation**: Android Navigation Component
+- **Navigation**: Android Navigation Component 2.7.2
 - **Data Binding**: View Binding and Data Binding
+- **Lifecycle Components**: ViewModel and LiveData (Lifecycle 2.6.2)
+- **Target SDK**: Android 34 (API level 34)
+- **Min SDK**: Android 8.0 (API level 26)
 
 ### Backend & Infrastructure
-- **REST API**: Custom weather API built with Node.js/Express
-- **Database**: SQLite with Room for local data persistence
-- **Authentication**: Firebase Authentication
-- **Hosting**: Heroku/Railway for API deployment
+- **REST API**: OpenWeatherMap API (external weather data service)
+- **API Client**: Retrofit 2.9.0 with Gson converter
+- **Database**: SQLite with Room 2.6.0 for local data persistence
+- **Authentication**: Google Sign-In via Google Play Services Auth 20.7.0
 - **CI/CD**: GitHub Actions for automated builds and testing
 
 ### Key Libraries
-- **Retrofit**: Type-safe HTTP client for REST API communication
-- **Room**: SQLite object mapping library for database operations
-- **Coroutines**: Asynchronous programming and concurrency
-- **Glide**: Efficient image loading and caching
-- **MPAndroidChart**: Advanced weather data visualization
-- **Google Play Services**: Location services and authentication
+- **Retrofit 2.9.0**: Type-safe HTTP client for REST API communication
+- **Gson**: JSON serialization/deserialization
+- **OkHttp Logging Interceptor 4.11.0**: HTTP request/response logging
+- **Room 2.6.0**: SQLite object mapping library for database operations
+- **Kotlin Coroutines 1.7.1**: Asynchronous programming and concurrency
+- **Glide 4.16.0**: Efficient image loading and caching
+- **MPAndroidChart v3.1.0**: Advanced weather data visualization
+- **Google Play Services Location 21.0.1**: Location services
+- **Google Play Services Auth 20.7.0**: Google Sign-In authentication
+- **SwipeRefreshLayout**: Pull-to-refresh functionality
 
 ## 📁 Project Structure
 
@@ -73,11 +80,11 @@ app/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Android Studio Arctic Fox or later
-- Android SDK 24+ (API level 24)
-- Google Play Services
-- Firebase project setup
-- Java Development Kit (JDK) 11 or higher
+- Android Studio Arctic Fox or later (recommended: latest version)
+- Android SDK 34 (API level 34)
+- Minimum SDK: Android 8.0 (API level 26)
+- Google Play Services (for authentication and location)
+- Java Development Kit (JDK) 17 or higher
 
 ### Installation
 
@@ -92,11 +99,10 @@ app/
    - Select "Open an Existing Project"
    - Navigate to the cloned directory
 
-3. **Configure Firebase**
-   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-   - Download `google-services.json`
-   - Place it in the `app/` directory
-   - Enable Authentication in Firebase Console
+3. **Configure OpenWeatherMap API**
+   - Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/)
+   - Configure API settings in `app/src/main/java/com/weatherapp/data/api/ApiConfig.kt`
+   - Free tier includes 60 calls/minute, current weather, and 5-day forecast
 
 4. **Build the project**
    ```bash
@@ -112,16 +118,24 @@ app/
 
 ## 📡 API Documentation
 
-### Weather Endpoints
-- `GET /api/weather/current` - Retrieve current weather conditions
-- `GET /api/weather/forecast` - Get weather forecast data
-- `GET /api/weather/hourly` - Fetch hourly weather forecast
-- `POST /api/weather/location` - Update user location preferences
+### OpenWeatherMap API Integration
 
-### Authentication Endpoints
-- `POST /api/auth/login` - User authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/logout` - User session termination
+The app integrates with the [OpenWeatherMap API](https://openweathermap.org/api) to fetch real-time weather data.
+
+**Weather Endpoints Used:**
+- `GET /data/2.5/weather` - Retrieve current weather conditions by city name or coordinates
+- `GET /data/2.5/forecast` - Get 5-day weather forecast with 3-hour intervals
+
+**API Features:**
+- Current weather data (temperature, humidity, wind speed, pressure, visibility)
+- 5-day weather forecast
+- Support for city name and GPS coordinates
+- Metric and imperial unit support
+- Automatic city name fallback and error handling
+
+**Authentication:**
+- Google Sign-In (SSO) via Google Play Services
+- No custom backend authentication server required
 
 ## 🧪 Testing
 
@@ -146,11 +160,18 @@ The project includes comprehensive test coverage with both unit and instrumented
 
 ### Test Structure
 - **Unit Tests**: `app/src/test/java/com/weatherapp/`
+  - JUnit 4.13.2 for test framework
+  - Mockito 5.1.1 with Kotlin support for mocking
+  - Coroutines Test 1.7.1 for testing async operations
+  - Architecture Components Testing 2.2.0 for ViewModel testing
   - `WeatherViewModel` tests
   - `AuthManager` tests
   - Repository unit tests
   
 - **Instrumented Tests**: `app/src/androidTest/java/com/weatherapp/`
+  - JUnit Android Extensions 1.1.5
+  - Espresso 3.5.1 for UI testing
+  - Room Testing 2.6.0 for database tests
   - `WeatherRepository` integration tests
   - UI component tests
 
@@ -168,21 +189,22 @@ The project includes comprehensive test coverage with both unit and instrumented
    - Complete store listing and release
 
 3. **Production Configuration**
-   - Configure Firebase for production environment
-   - Update API endpoints to production URLs
+   - Configure OpenWeatherMap API settings
+   - Configure Google Sign-In OAuth credentials
    - Enable ProGuard/R8 for code obfuscation
+   - Test on multiple devices and Android versions
 
-### Backend API
+### API Configuration
 
-1. **Deploy to Hosting Platform**
-   - Deploy Node.js API to Heroku or Railway
-   - Configure environment variables
-   - Set up database connection
+1. **OpenWeatherMap Setup**
+   - Ensure API configuration is properly set up
+   - Monitor API usage and rate limits (60 calls/minute on free tier)
+   - Consider upgrading to paid tier for production use
 
 2. **Database Setup**
-   - Initialize SQLite database with Room persistence
-   - Run database migrations
-   - Configure backup and recovery
+   - Room database is automatically initialized on first app launch
+   - Database migrations are handled by Room
+   - Local data persists across app restarts
 
 ## 🎥 Demo Video
 
@@ -263,7 +285,7 @@ This project is open source and available for use and modification.
 ## 👤 Contact
 
 **Developer**: ST10082749  
-**Email**: helder.s.cruz1@outlook.pt  
+ 
 **GitHub**: [@VCCT-PROG7314-2025-G2](https://github.com/VCCT-PROG7314-2025-G2/weatherApp)
 
 ---
