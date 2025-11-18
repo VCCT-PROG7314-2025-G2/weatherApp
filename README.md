@@ -332,7 +332,7 @@ The project includes comprehensive test coverage with both unit and instrumented
 
 ## 🎥 Demo Video
 
-**Watch the full demonstration**: [YouTube Video](https://youtu.be/your-video-id)
+**Watch the full demonstration**: [YouTube Video](https://youtube.com/shorts/VBMulJwLwBo?feature=share)
 
 The demonstration showcases:
 - User authentication flow with Google SSO
